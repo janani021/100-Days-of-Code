@@ -7,13 +7,13 @@ class Quizbrain:
     def __init__(self):
         self.correct_answer = 0
     def check_answer(self,question,answer):
-        if (question['answer']==answer):
+        if (question['correct_answer']==answer):
             print("You got it right!")
             flag=True
         else:
             print("That's wrong")
             flag=False
-        print(f"The correct answer was: {question['answer']}")
+        print(f"The correct answer was: {question['correct_answer']}")
         return flag
 
     def score(self):

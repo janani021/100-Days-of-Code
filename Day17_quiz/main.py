@@ -10,7 +10,7 @@ total = (len(data.question_data))
 
 while(flag):
     question,num=question_model.question()
-    print(f"Q.{num} {question['text']} (True/False):")
+    print(f"Q.{num} {question['question']} (True/False):")
     answer=input()
     answer.capitalize()
     data.question_data.remove(question)

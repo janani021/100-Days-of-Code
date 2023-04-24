@@ -1,4 +1,4 @@
-question_data = [
+"""question_data = [
 {"text": "A slug's blood is green.", "answer": "True"},
 {"text": "The loudest animal is the African Elephant.", "answer": "False"},
 {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
@@ -11,4 +11,35 @@ question_data = [
 {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
 {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
 {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
-]
+]"""
+
+question_data = [{"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
+                  "question": "Video streaming website YouTube was purchased in it&#039;s entirety by Facebook for US$1.65 billion in stock.",
+                  "correct_answer": "False", "incorrect_answers": ["True"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
+                  "question": "&quot;Typewriter&quot; is the longest word that can be typed using only the first row on a QWERTY keyboard.",
+                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "hard",
+                  "question": "This is the correct spelling of &quot;Supercalifragilisticexpialidocious&quot;.",
+                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
+                  "question": "The vapor produced by e-cigarettes is actually water.",
+                  "correct_answer": "False", "incorrect_answers": ["True"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
+                  "question": "The sum of all the numbers on a roulette wheel is 666.",
+                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
+                  "question": "The word &quot;news&quot; originates from the first letters of the 4 main directions on a compass (North, East, West, South).",
+                  "correct_answer": "False", "incorrect_answers": ["True"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
+                  "question": "Pluto is a planet.", "correct_answer": "False",
+                  "incorrect_answers": ["True"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "hard",
+                  "question": "In Scandinavian languages, the letter &Aring; means river.",
+                  "correct_answer": "True", "incorrect_answers": ["False"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
+                  "question": "Albert Einstein had trouble with mathematics when he was in school.",
+                  "correct_answer": "False", "incorrect_answers": ["True"]},
+                 {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
+                  "question": "Jingle Bells was originally meant for Thanksgiving",
+                  "correct_answer": "True", "incorrect_answers": ["False"]}]
