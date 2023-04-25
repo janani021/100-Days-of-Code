@@ -29,7 +29,7 @@ question_data = [{"category": "General Knowledge", "type": "boolean", "difficult
                   "question": "The sum of all the numbers on a roulette wheel is 666.",
                   "correct_answer": "True", "incorrect_answers": ["False"]},
                  {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
-                  "question": "The word &quot;news&quot; originates from the first letters of the 4 main directions on a compass (North, East, West, South).",
+                  "question": "The word &quot;news&quot; originates from the first letters of the 4 main.py directions on a compass (North, East, West, South).",
                   "correct_answer": "False", "incorrect_answers": ["True"]},
                  {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
                   "question": "Pluto is a planet.", "correct_answer": "False",
